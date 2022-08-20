@@ -1,0 +1,75 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html {
+  background: url(../img/andrew-welch-Y-RyEJ8eqHc-unsplash.jpg) no-repeat center center fixed;
+  background-size: cover;
+  /* height: 100%; */
+  /* overflow: scroll; */
+  color: black;
+  font-size: 62.5%;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+img{
+  display: block;
+  margin: 0 auto;
+  height: 200px;
+}
+
+h1{
+  font-size: 5rem;
+  text-align: center;
+}
+
+#title{
+  font-size: 7rem;
+}
+
+h2{
+  text-align: center;
+}
+
+p{
+  padding-bottom: 2rem;
+}
+
+.search-container{
+  text-align: center;
+  font-size: 2rem;
+}
+
+section{
+  text-align: center;
+  font-size: 2rem;
+  margin: 0 auto;
+  width: 70%;
+  background-color: rgba(237, 213, 203, 0.34)
+}
+
+.amount-container{
+  display:inline-block;
+}
+
+.ingredient-container{
+  display: inline-block;
+}
+
+.ingredient{
+  list-style: none;
+  text-align: left;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
